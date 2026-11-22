@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+cnn_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset folders
+/picture_data/
+/confused_images/
+
+# Extracted Features
+*.npz
+
+# Trained Models
+*.keras
+
+# TensorFlow / Keras
+checkpoints/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
